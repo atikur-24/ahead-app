@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-container {
+  @apply max-w-[2550px] px-2 md:px-6 lg:px-12 pt-2 md:pt-4 lg:pt-6 mx-auto;
+}
+
+.my-container {
+  @apply px-2 xl:px-4 container mx-auto py-14 lg:py-16;
+}
+
+.primary-btn {
+  @apply bg-black text-white rounded-full py-1 px-2 text-sm;
+}
