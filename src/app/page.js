@@ -4,6 +4,7 @@ import Familiar from "@/components/Familiar";
 import Improvement from "@/components/Improvement";
 import Meet from "@/components/Meet";
 import Started from "@/components/Started";
+import WorkWithUs from "@/components/WorkWithUs";
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
         secondContent={"Additionally, not understanding those of others stops you from being parent, friend you can be."}
       />
       <Started />
+      <WorkWithUs />
     </main>
   );
 };

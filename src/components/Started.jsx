@@ -11,7 +11,7 @@ const Started = () => {
           <span className="text-gray-600 lg:text-lg font-medium lg:font-semibold">with love,</span> <span className="italic lg:text-lg font-thin">Lean alued</span>
         </p>
         <div className="pt-3">
-          <button className="primary-btn !text-xs tracking-wide">Start a test</button>
+          <button className="primary-btn !text-xs tracking-wide lg:!py-4 lg:!px-6">Start a test</button>
           <p className="text-xs text-gray-500 font-semibold pt-3">Take only 5 minutes</p>
         </div>
       </div>
