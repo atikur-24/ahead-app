@@ -3,6 +3,7 @@ import Eq from "@/components/Eq";
 import Familiar from "@/components/Familiar";
 import Improvement from "@/components/Improvement";
 import Meet from "@/components/Meet";
+import Started from "@/components/Started";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
         firstContent={"Not having your own emotions under control might be holding you back."}
         secondContent={"Additionally, not understanding those of others stops you from being parent, friend you can be."}
       />
+      <Started />
     </main>
   );
 };
