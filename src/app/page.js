@@ -4,6 +4,7 @@ import Familiar from "@/components/Familiar";
 import Improvement from "@/components/Improvement";
 import Meet from "@/components/Meet";
 import Started from "@/components/Started";
+import Vacancies from "@/components/Vacancies";
 import WorkWithUs from "@/components/WorkWithUs";
 
 const HomePage = () => {
@@ -26,6 +27,7 @@ const HomePage = () => {
       />
       <Started />
       <WorkWithUs />
+      <Vacancies />
     </main>
   );
 };
