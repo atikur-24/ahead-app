@@ -1,5 +1,5 @@
 import banner from "@/assets/images/banner/banner.jpg";
-import appStore from "@/assets/images/icons/app-store.png";
+import appStore from "@/assets/images/icons/app-store.svg";
 import { Rating, RoundedStar } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import Image from "next/image";
