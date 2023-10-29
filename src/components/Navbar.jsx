@@ -24,8 +24,8 @@ const Navbar = () => {
     <nav className="flex justify-between items-center nav-container">
       <h1 className="text-2xl font-bold text-purple-500">Logo</h1>
       <ul className="flex gap-8">
-        {navLinks.map(({ path, title }) => (
-          <li key={path}>
+        {navLinks.map(({ path, title, idx }) => (
+          <li key={idx}>
             <Link href={path}>{title}</Link>
           </li>
         ))}
