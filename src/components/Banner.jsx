@@ -15,7 +15,7 @@ const Banner = () => {
     <section className="my-container">
       <Image className="object-cover w-full rounded-xl lg:rounded-3xl" src={banner} alt="banner" />
       <div className="absolute top-1/2 ml-5 md:ml-8 lg:ml-12 w-1/2 space-y-2 lg:space-y-4">
-        <p className="text-sm lg:text-base">Ahead app</p>
+        <p className="text-sm lg:text-base tracking-wide font-medium">Ahead app</p>
         <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold lg:font-extrabold tracking-wide lg:tracking-wider">
           Master your life <br /> by mastering <br /> emotions
         </h1>

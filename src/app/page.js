@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import Eq from "@/components/Eq";
 import Familiar from "@/components/Familiar";
+import Meet from "@/components/Meet";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Banner />
       <Eq />
       <Familiar />
+      <Meet />
     </main>
   );
 };
