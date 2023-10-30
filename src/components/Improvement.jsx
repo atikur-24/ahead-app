@@ -3,7 +3,6 @@ import Step from "@mui/material/Step";
 import StepContent from "@mui/material/StepContent";
 import StepLabel from "@mui/material/StepLabel";
 import Stepper from "@mui/material/Stepper";
-import Typography from "@mui/material/Typography";
 
 const steps = [
   {
@@ -33,7 +32,7 @@ const Improvement = () => {
       </div>
       <div className="mx-40">
         <Box sx={{ maxWidth: 400 }}>
-          <Stepper activeStep={true} orientation="vertical">
+          <Stepper orientation="vertical">
             {steps.map((step) => (
               <Step key={step.label}>
                 <StepLabel>{step.label}</StepLabel>

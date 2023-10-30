@@ -1,7 +1,12 @@
-/* .steps .step {
-  @apply xl:!min-h-[10rem] 2xl:!min-h-[20rem];
-} */
+.steps .step {
+  @apply xl:!min-w-[10rem];
+}
 
-/* .steps .step:after {
-  @apply !w-2;
-} */
+.steps .step:before {
+  height: 0.2rem !important;
+}
+
+.steps .step:after {
+  height: 1rem !important;
+  width: 1rem !important;
+}
