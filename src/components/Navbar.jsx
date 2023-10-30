@@ -1,3 +1,5 @@
+import logo from "@/assets/images/icons/logo.JPG";
+import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
@@ -22,11 +24,13 @@ const navLinks = [
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center nav-container">
-      <h1 className="text-2xl font-bold text-purple-500">Logo</h1>
-      <ul className="flex gap-8">
+      <Image width={60} src={logo} alt="logo" />
+      <ul className="flex text-gray-700 gap-8">
         {navLinks.map(({ path, title, idx }) => (
           <li key={idx}>
-            <Link href={path}>{title}</Link>
+            <Link className="font-medium" href={path}>
+              {title}
+            </Link>
           </li>
         ))}
       </ul>

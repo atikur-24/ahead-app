@@ -2,7 +2,7 @@ const Familiar = () => {
   return (
     <section className="lg:pb-5 xl:lg:pb-10">
       <h1 className="text-lg md:text-3xl lg:text-4xl tracking-wide font-semibold lg:font-bold px-10 lg:px-16 pb-6 lg:pb-16">Does this sound familiar...</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 -mx-6 lg:-mx-40">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-6 lg:-mx-40">
         <div className="bg-[#D8F2FF] rounded-md lg:rounded-xl p-5 lg:p-7 space-y-2 lg:space-y-4">
           <h4 className="text-xl lg:text-2xl">😮</h4>
           <h3 className="text-lg lg:text-xl whitespace-nowrap font-medium lg:font-semibold">Yourself in a quarrel with your partner</h3>

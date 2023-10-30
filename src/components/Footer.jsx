@@ -8,16 +8,18 @@ const Footer = () => {
     <section className="mt-8 lg:mt-16">
       <div className="border"></div>
       <div className="text-center space-y-2 lg:space-y-4 p-5 lg:p-7">
-        <Image className="mx-auto" src={logo} alt="logo" />
-        <p className="lg:text-lg tracking-wide font-medium lg:font-bold primary-color">ahead</p>
-        <div className="text-sm font-medium text-gray-700 space-x-3 lg:space-x-6">
-          <span className="inline-flex items-center">
+        <div>
+          <Image className="mx-auto" src={logo} alt="logo" />
+          <p className="lg:text-lg tracking-wide font-medium lg:font-bold primary-color">ahead</p>
+        </div>
+        <div className="text-sm font-medium text-gray-700 space-x-3 lg:space-x-6 flex flex-col lg:flex-row justify-center items-center">
+          <span className="inline-flex gap-2 items-center">
             <span className="bg-[#96F1D7] rounded-full p-1">
               <FaMapMarkerAlt />
             </span>
             <span>AuguststraBe 26, 10117 Berlin</span>
           </span>
-          <span className="inline-flex items-center">
+          <span className="inline-flex gap-2 items-center">
             <span className="bg-[#96F1D7] rounded-full p-1">
               <FaEnvelope />
             </span>
