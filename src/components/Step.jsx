@@ -16,7 +16,10 @@ const Step = () => {
             <Image width={35} src={number2} alt="number" />
             <div className="border-t-4 border-indigo-500 border-dashed w-96"></div>
           </div>
-          <Image width={35} src={number3} alt="number" />
+          <div>
+            <Image width={35} src={number3} alt="number" />
+            <div className="border-t-4 border-indigo-500 border-dashed w-96"></div>
+          </div>
         </div>
       </div>
     </div>
