@@ -1,5 +1,4 @@
 import "@/styles/style.css";
-import Step from "./Step";
 
 const Wondered = () => {
   return (
@@ -7,7 +6,6 @@ const Wondered = () => {
       <div className="bg-[#EDF8FE] rounded-xl lg:rounded-3xl p-8 lg:py-20 lg:px-10 text-center">
         <p className="font-medium pb-1 lg:pb-2">Let your friends, family, and co-workers (anonymously) rate your social skills.</p>
         <h2 className="text-lg md:text-3xl lg:text-4xl tracking-wide font-semibold lg:font-bold pb-6 lg:pb-10">Ever wondered what others think of you?</h2>
-        {/* <Step /> */}
         <div className="bg-white lg:mx-40 py-20 drop-shadow-lg rounded-lg relative text-sm mt-8 lg:mt-16">
           <ul className="steps steps-vertical lg:steps-horizontal">
             <li data-content="" className="step step-primary">
